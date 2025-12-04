@@ -153,7 +153,7 @@ void HAL_GPIO_EXIT_Callback(uint16_t GPIO_PIN)
 {
 	if(HAL_GPIO_ReadPin(GPIOB,GPIO_PIN_4)==1)
 	{
-		printf("INTERUPT GENERATED \n");
+		printf("INTERRUPT GENERATED \n");
 
 	}
 }
